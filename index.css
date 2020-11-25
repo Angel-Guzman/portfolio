@@ -1,0 +1,166 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  padding: 2rem;
+  max-width: 56em;
+  margin: 0 auto;
+}
+
+#body-container {
+  background-color: #1da1f2;
+}
+
+/* NAVIGATION */
+.navigation-links {
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: var(--background-color);
+  color: #222;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+  --background-color: #e3e3e3;
+  --border-size: 2px;
+  --accent-color: #3c403d;
+}
+
+.btn.btn-border-underline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--border-size);
+  background-color: var(--accent-color);
+  transition: transform 300ms ease-in-out;
+
+  transform: scaleX(0);
+}
+
+.btn.btn-border-underline:hover::before,
+.btn.btn-border-underline:focus::before {
+  transform: scaleX(1);
+}
+
+/* ABOUT */
+#about,
+#projects,
+#contact {
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-container {
+  /* background-color: #daded4; */
+  border-radius: 3px;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#name {
+  color: #ffffff;
+  font-size: 4em;
+  margin: 0.4rem;
+}
+
+#job-title {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 0 0 2%;
+}
+
+/* PROJECTS */
+#projects {
+  width: 80%;
+  color: #3c403d;
+}
+
+.projects-section {
+  padding: 2% 2% 5%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e1e8ed;
+}
+
+.project-container {
+  background-color: #1da1f2;
+  color: #ffffff;
+  width: 35%;
+  padding: 2%;
+  margin: 1% 0% 2.5%;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-btn {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 1%;
+  margin: 1%;
+}
+
+.project-img {
+  width: 100%;
+  max-height: 145px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+
+#contact {
+  margin: 1%;
+}
+
+.footer-container {
+  padding: 1%;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* PALETTE 1
+Blackish: #202020
+
+Dark Grey: #3F3F3F
+
+Medium Grey: #707070
+
+Egg Yellow: #FFDF6C
+
+White: #FFFFFF
+
+*/
+
+/* PALETTE 2
+Olive: #A3BCB6
+
+Green Leaf: #39603D
+
+Brown Grey: #3C403D
+
+Tanly: #DADED4
+
+White: #FFFFFF
+
+*/
+
+/* On hover, display a darker div on top with text/links */
