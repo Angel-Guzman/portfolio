@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #ffffff;
   padding: 2rem;
   max-width: 56em;
@@ -37,7 +37,7 @@ a {
 }
 
 .btn.btn-border-underline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -137,30 +137,23 @@ a {
   text-align: center;
 }
 
-/* PALETTE 1
-Blackish: #202020
+/* MOBILE VIEW */
 
-Dark Grey: #3F3F3F
+@media (max-width: 500px) {
+  #name {
+    font-size: 3em;
+  }
 
-Medium Grey: #707070
+  /* NAVIGATION */
+  .navigation-links {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .btn {
+    width: 40%;
+  }
 
-Egg Yellow: #FFDF6C
-
-White: #FFFFFF
-
-*/
-
-/* PALETTE 2
-Olive: #A3BCB6
-
-Green Leaf: #39603D
-
-Brown Grey: #3C403D
-
-Tanly: #DADED4
-
-White: #FFFFFF
-
-*/
-
-/* On hover, display a darker div on top with text/links */
+  .project-container {
+    width: 80%;
+  }
+}
