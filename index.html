@@ -113,20 +113,36 @@
             <div data-w-id="35d436a1-86d3-3cb4-3de3-13a865418054" class="services-wrapper">
               <div class="service-icon"><img src="images/icons8-ios-development-144.png" loading="lazy" width="30"
                   alt=""></div>
-              <div class="services-text">Shopify Development</div>
+              <div class="services-text">
+                <a style="text-decoration: none;" href="#works">
+                  Shopify Development
+                </a>
+              </div>
             </div>
             <div data-w-id="c8586a5e-1fae-4407-44bd-73a2fc2057d4" class="services-wrapper _2">
               <div class="service-icon"><img src="images/icons8-web-design-144.png" loading="lazy" width="30" alt="">
               </div>
-              <div class="services-text">Web Design</div>
+              <div class="services-text">
+                <a style="text-decoration: none;" href="#works">
+                  Web Design
+                </a>
+              </div>
             </div>
             <div data-w-id="d17715f9-0d28-6589-abc4-b4bbb3ace6a5" class="services-wrapper _3">
               <div class="service-icon"><img src="images/icons8-design-144.png" loading="lazy" width="30" alt=""></div>
-              <div class="services-text">Web Development</div>
+              <div class="services-text">
+                <a style="text-decoration: none;" href="#works">
+                  Web Development
+                </a>
+              </div>
             </div>
-            <div data-w-id="c47a0ac1-0b78-4160-965d-a8a26fa72df5" class="services-wrapper _4">
+            <div data-w-id="c47a0ac1-0b78-4160-965d-a8a26fa72df5" class="services-wrapper _4" href="#contact">
               <div class="service-icon"><img src="images/icons8-mailbox-144.png" loading="lazy" width="30" alt=""></div>
-              <div class="services-text">info@angelg.dev</div>
+              <div class="services-text">
+                <a href="#contact">
+                  info@angelg.dev
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -166,7 +182,7 @@
     <div class="section-wrapper">
       <div class="section fun">
         <div class="container">
-          <div class="fun-wrapper">
+          <div class="fun-wrapper" style="display: flex; justify-content: space-around;">
             <div class="fun-facts-wrapper"><img src="images/icons8-web-144.png" width="65" alt="" class="fun-image">
               <div>
                 <h1 class="fun-number">70+<br></h1>
@@ -204,16 +220,39 @@
                 </div>
               </div>
             </div>
-            <div class="form-block w-form">
+            <form target="_blank" action="https://mailthis.to/AngelGuzman" method="POST" encType="multipart/form-data"
+              id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form">
+              <div style="display: flex;" class="form-grid">
+                <div id="w-node-_7e2edfe3-3944-2ba0-6656-871ae44718d6-98cafc3a" style="max-height: 100px;">
+                  <label for="Name" class="field-label-form">Name<span class="color">*</span></label>
+                  <input type="text" name="name" id="Name" placeholder="Your name" class="text-field-primary w-input"
+                    maxlength="256">
+                </div>
+                <div id="w-node-_7e2edfe3-3944-2ba0-6656-871ae44718e0-98cafc3a" style="max-height: 100px;">
+                  <label for="Email" class="field-label-form">Email<span class="color">*</span></label>
+                  <input type="email" name="_replyto" id="Email" placeholder="Your email"
+                    class="text-field-primary w-input" maxlength="256">
+                </div>
+                <div style="max-height: 100px;">
+                  <label for="Message" class="field-label-form">Message Me</label>
+                  <textarea placeholder="Enter your message here" maxlength="5000" id="Message" name="Message"
+                    data-name="Message" class="text-field-primary area w-input"></textarea>
+                </div>
+              </div>
+              <input style="height: 20%;" type="submit" value="Contact Me" data-wait="Please wait..."
+                class="button blue w-button">
+            </form>
+            <!-- <div action="https://mailthis.to/AngelGuzman" method="POST" encType="multipart/form-data"
+              class="form-block w-form">
               <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form">
                 <div class="form-grid">
                   <div id="w-node-_7e2edfe3-3944-2ba0-6656-871ae44718d6-98cafc3a"><label for="Name"
                       class="field-label-form">Name<span class="color">*</span></label><input type="text"
-                      class="text-field-primary w-input" maxlength="256" name="Name" data-name="Name"
+                      class="text-field-primary w-input" maxlength="256" name="name" data-name="Name"
                       placeholder="Your name" id="Name" required=""></div>
                   <div id="w-node-_7e2edfe3-3944-2ba0-6656-871ae44718e0-98cafc3a"><label for="Email"
                       class="field-label-form">Email<span class="color">*</span></label><input type="email"
-                      class="text-field-primary w-input" maxlength="256" name="Email" data-name="Email"
+                      class="text-field-primary w-input" maxlength="256" name="_replyto" data-name="Email"
                       placeholder="Your email" id="Email" required=""></div>
                   <div id="w-node-_7e2edfe3-3944-2ba0-6656-871ae44718e6-98cafc3a"><label for="Email"
                       class="field-label-form">Category<span class="color">*</span></label>
@@ -260,7 +299,7 @@
               <div class="error-message w-form-fail">
                 <div>Oops! Something went wrong while submitting the form.</div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="line-divider"></div>
           <div class="copyright-grid">
