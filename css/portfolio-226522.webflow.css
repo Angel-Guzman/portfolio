@@ -917,7 +917,10 @@ figcaption {
 }
 
 .form-grid {
-  display: -ms-grid;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  /* display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 15px;
@@ -925,7 +928,7 @@ figcaption {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto; */
 }
 
 .top-margin-30px {
@@ -2141,12 +2144,13 @@ figcaption {
     margin-left: -50px;
   }
 
+  /* 
   .form-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
-  }
+  } */
 
   .text-field-primary {
     height: 50px;
@@ -2551,4 +2555,3 @@ figcaption {
     grid-column-end: span 2;
   }
 }
-
